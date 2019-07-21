@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<title>Curso Hidroponicos</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.2/css/all.css" integrity="sha384-/rXc/GQVaYpyDdyxK+ecHPVYJSN9bmVFBvjA/9eOB+pb3F2w2N6fc5qB9Ew5yIns" crossorigin="anonymous">
+	<link href="style.css" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Mali" rel="stylesheet">
+	<link rel="shortcut icon" href="/favicon.ico" type="image/ico">
+</head>
+<body>
+
+<!-- Navigation -->
+<nav class = "navbar navbar-expand-md navbar-light bg-light sticky-top">
+	<div class = "container-fluid">
+		<a class = "navbar-brand" href="#"><img src = "/img/navlogo2.png"></a>
+		<button class = "navbar-toggler" type ="button" data-toggle = "collapse" data-target = "#navbarResponsive">
+			<span class = "navbar-toggler-icon"></span>
+		</button>
+		<div class = "collapse navbar-collapse" id = "navbarResponsive">
+			<ul class = "navbar-nav ml-auto">
+				<li class = "nav-item">
+					<a class = "nav-link active" href = "#">Inicio</a>
+				</li>
+				<li class = "nav-item">
+					<a class = "nav-link" href = "#Descripcion">Descripción</a>
+				</li>
+				<li class = "nav-item">
+					<a class = "nav-link" href = "#Inscripcion">Inscripción</a>
+				</li>
+				<li class = "nav-item">
+					<a class = "nav-link" href = "#Contacto">Contacto</a>
+				</li>
+			</div>
+		</div>
+	</nav>
+
+<!--- Image Slider -->
+<div id="slides" class = "carousel slide" data-ride = "carousel">
+	<ol class = "carousel-indicators">
+		<li data-target = "#slides" data-slide-to = "0" class="active"></li>
+		<li data-target = "#slides" data-slide-to = "1"></li>
+		<li data-target = "#slides" data-slide-to = "2"></li>
+		<li data-target = "#slides" data-slide-to = "3"></li>
+	</ol>
+
+<div class = "carousel-inner">
+	<div class = "carousel-item active">
+		<div align = "center">
+			<video autoplay loop>
+			 	<source src = "/img/vid25mb.mp4" type="video/mp4">
+				</video>
+			</div>
+		<div class = "carousel-caption">
+			<h1 class = "display-2">Práctico</h1>
+			<h3>Construye tu primer sistema hidropónico</h3>
+			<button type="button" class="btn btn-outline-light btn-lg"><a href="#videoboy">Video</a></button>
+			<button type="button" class="btn btn-primary btn-lg"><a href="#Descripcion">Leer Más</a></button>
+	</div>
+</div>
+	<div class = "carousel-item">
+		<div class = "blurry">
+			<img src = "/img/K_1crop.jpg">
+		</div>
+		<div class = "carousel-caption yearap1">
+			<button type="button" class="btn btn-warning btn-lg yearap" onClick= "aprobacionedad();"
+			data-toggle="tooltip" data-placement="top"
+			title="El contenido tiene imágenes de Cannabis sativa. Certifica que es adulto y tiene +18 años.">Tengo +18 años</button>
+		</div>
+	</div>
+	<div class = "carousel-item">
+		<div class = "blurry">
+			<img src = "img/K_2crop.jpg">
+		</div>
+		<div class = "carousel-caption">
+			<button type="button" class="btn btn-warning btn-lg yearap" onClick= "aprobacionedad();" 	data-toggle="tooltip" data-placement="top"
+				title="El contenido tiene imágenes de Cannabis sativa. Certifica que es adulto y tiene +18 años.">Tengo +18 años</button>
+		</div>
+	</div>
+	<div class = "carousel-item">
+		<img src = "/img/learn.jpg">
+	</div>
+	</div>
+	<hr>
+</div>
+
+<script = "text/javascript">
+	function aprobacionedad() {
+		$(document).on('click','button',function(){
+	           $( ".blurry" ).removeClass( "blurry" );
+						 $(".yearap").hide();
+					 });
+	}
+</script>
+
+<script>
+	$(function () {
+ 		$('[data-toggle="tooltip"]').tooltip()
+	});
+</script>
+
+<!--- Jumbotron -->
+<div class="container-fluid">
+	<div class="row Jumbotron">
+		<div class="col-xs-12 col-sm-12 col-md-9 col-lg-9 col-xl-10">
+			<p class="lead"><a name="videoboy">Video introductorio</a></p>
+		</div>
+		<div class="embed-responsive embed-responsive-16by9">
+  		<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/6Arz6KyYoEw" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+		</div>
+	</div>
+</div>
+
+<!--- Welcome Section -->
+<div class="container-fluid padding">
+	<div class="row welcome text-center">
+		<div class="col-12">
+			<h1 class="display-4"><a name="Descripcion">Descripción</a></h1>
+		</div>
+		<hr>
+		<div class="col-12">
+			<p class="lead" color: red>Si tu deseo es cultivar en tu casa tus propios alimentos orgánicos o plantas medicinales, este curso va a llevarte desde 0 a la construcción y operación de tu primer sistema hidropónico para instalar en balcones, terrazas y armarios de tu casa.</p>
+		</div>
+	</div>
+	<hr class = "my-4">
+</div>
+
+<!--- Three Column Section -->
+<div class="container-fluid padding">
+	<div class="row text-center padding">
+		<div class="col-xs-12 col-sm-6">
+			<span style="color: GoldenRod">
+				<i class="fas fa-university fa-7x"></i>
+			</span>
+			<h3>Contenido</h3>
+				<ul class = "list-group list-group-flush">
+					<li class = "lead list-group-item"><span style="color: Aqua"><i class="fas fa-tint"></i></span>Nutrición vegetal.</li>
+					<li class = "lead list-group-item"><span style="color: Aqua"><i class="fas fa-tint"></i></span>Producción de sales fertilizantes.</li>
+					<li class = "lead list-group-item"><span style="color: Aqua"><i class="fas fa-tint"></i></span>Preparación de solución nutritiva.</li>
+					<li class = "lead list-group-item"><span style="color: Aqua"><i class="fas fa-tint"></i></span>Detección y corrección de deficiencias.</li>
+					<li class = "lead list-group-item"><span style="color: Aqua"><i class="fas fa-tint"></i></span>Tipos de sistemas hidropónicos.</li>
+					<li class = "lead list-group-item"><span style="color: Aqua"><i class="fas fa-tint"></i></span>Técnicas avanzadas de cultivos indoors.</li>
+				</ul>
+		</div>
+		<div class = "col-xs-12 col-sm-6">
+			<span style="color: DarkSlateGray ">
+				<i class="fas fa-mortar-pestle fa-7x"></i>
+			</span>
+			<h3>Metodología</h3>
+			<p class = "lead">Una mezcla de teoría y práctica. Lo que se estudia en una sesión se practica en la siguiente.
+			Este curso te llevará en el paso a paso de la construcción de un sistema hidropónico perfecto para interior.</p>
+		</div>
+	</div>
+	<hr class = "my-4">
+
+	<div class="row text-center padding">
+		<div class="col-xs-12 col-sm-6">
+			<span style="color: Chocolate">
+				<i class="fas fa-box-open fa-7x"></i>
+			</span>
+			<h3>Equipo que se entrega</h3>
+				<ul class = "list-group list-group-flush">
+					<li class = "lead list-group-item"><span style="color: Aqua"><i class="fas fa-tint"></i></span>Caneca 20L PC para DWC.</li>
+					<li class = "lead list-group-item"><span style="color: Aqua"><i class="fas fa-tint"></i></span>Bomba de aire.</li>
+					<li class = "lead list-group-item"><span style="color: Aqua"><i class="fas fa-tint"></i></span>2L solución stock (diluye 400L agua).</li>
+					<li class = "lead list-group-item"><span style="color: Aqua"><i class="fas fa-tint"></i></span>Sensor de pH.</li>
+					<li class = "lead list-group-item"><span style="color: Aqua"><i class="fas fa-tint"></i></span>Sensor de EC TDS + Temperatura (agua)</li>
+					<li class = "lead list-group-item"><span style="color: Aqua"><i class="fas fa-tint"></i></span>Sensor de Humedad Relativa + Temperatura</li>
+					<li class = "lead list-group-item"><span style="color: Aqua"><i class="fas fa-tint"></i></span>Equipo de seguridad (gafas + guantes)</li>
+				</ul>
+		</div>
+		<div class = "col-xs-12 col-sm-6">
+			<span style="color: CornflowerBlue ">
+				<i class="fas fa-comment-dollar fa-7x"></i>
+			</span>
+			<h3>Costo Inscripción</h3>
+			<table class="table  table-hover">
+				<caption>10 cupos</caption>
+  			<thead>
+    			<tr>
+      			<th scope="col">Tipo</th>
+      			<th scope="col">Descuento</th>
+      			<th scope="col">Costo</th>
+					</tr>
+				</thead>
+					<tbody>
+						<tr>
+							<th scope="row">Normal</th>
+							<td>0%</td>
+							<td>$420.000 COP</td>
+
+						</tr>
+						<tr>
+							<th scope="row">Estudiante</th>
+							<td>20%</td>
+							<td>$336.000 COP</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+		</div>
+	<hr class = "my-4">
+</div>
+
+
+<!--- Two Column Section -->
+<div class="container-fluid padding">
+	<div class="row welcome text-center">
+		<div class="col-12">
+			<h1 class="display-4"><a name="Inscripcion">Inscripción</a></h1>
+		</div>
+	</div>
+	<div class = "col-12">
+		<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeed6JwcxGS9PaaBxEBuiGb1OJbUYmuoCRnuXLsl43yHpaYGA/viewform?embedded=true" width="100%" height="710" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
+	</div>
+	<hr class = "my-4">
+</div>
+<!--- Fixed background -->
+
+
+<!--- Emoji Section -->
+
+
+<!--- Meet the team -->
+
+
+<!--- Cards -->
+
+
+<!--- Two Column Section -->
+
+
+<!--- Connect -->
+<div class = "container-fluid padding">
+	<div class = "row text-center padding">
+		<div class = "col-12">
+			<h2><a name = "Contacto">Contacto</a></h2>
+		</div>
+		<div class="card mx-auto" style="width: 25rem;">
+	  	<img src="/img/cardpic.jpg" class="card-img-top" alt="...">
+	  	<div class="card-body">
+	    	<h5 class="card-title">Camilo Reyes Dieck</h5>
+				<ul class="list-group list-group-flush">
+	    		<li class="list-group-item">Experiencia de 5 años en hidroponía.</li>
+	    		<li class="list-group-item">2 años administrando finca de frutales.</li>
+	    		<li class="list-group-item">Desarrollador.</li>
+	  		</ul>
+	    	<a href="http://grdb.000webhostapp.com/HSGrowroom/index.html" class="btn btn-primary" target="_blank">IoT Cultivo RDWC</a>
+	  	</div>
+		</div>
+
+		<div class="col-12 social padding">
+			<a href ="https://www.facebook.com/Curso-Cultivos-Hidropónicos-1264650133711769/" target="_blank"><i class="fab fa-facebook redes"></i></a>
+			<a href ="https://www.instagram.com/carejopo420/" target="_blank"><i class="fab fa-instagram redes"></i></a>
+			<a href ="https://www.youtube.com/channel/UCJ08pq1MbxLga1_y7Bg2AXg/videos" target="_blank"><i class="fab fa-youtube redes"></i></a>
+		</div>
+	</div>
+</div>
+
+<!--- Footer -->
+<footer>
+	<div class="container-fluid padding">
+		<div class="row">
+			<div class ="col-md-6 text-center">
+				<img src="/img/footerlogo.png">
+				<hr class="light">
+				<p>cursocultivoshidroponicos@gmail.com</p>
+				<span style="color: white;" class="fab fa-whatsapp"><p class = "lead">3216041240</p></span>
+			</div>
+			<div class="col-md-6">
+				<hr class="light">
+				<h5>Aliados</h5>
+				<hr class="light">
+				<ul class="list-unstyled">
+					<a href = "https://www.facebook.com/panaguanaa" target="_blank">
+				  <li class="media">
+				    <img src="img/panaguana.png" class="mr-3" alt="..." width = "80px">
+					    <div class="media-body">
+					      <h5 class="mt-0 mb-1">Panaguana</h5>
+					      Influencer cultura cannábica colombiana y amigo.
+					    </div>
+				  </li>
+					</a>
+				  <li class="media my-4">
+				    <img src="img/stoners.png" width = "80px" class="mr-3" alt="...">
+				    <div class="media-body">
+				      <h5 class="mt-0 mb-1">Stoners Colombia</h5>
+				      Tienda de productos de cannabis y cultivo.
+				    </div>
+				  </li>
+				  <li class="media">
+				    <img src="img/bpplogo.png" class="mr-3" alt="..."  width = "80px">
+				    <div class="media-body">
+				      <h5 class="mt-0 mb-1">Biblioteca Pública Piloto</h5>
+				      Biblioteca de Medellín que promueve la educación pública y el desarrollo sostenible de la ciudad.
+				    </div>
+				  </li>
+				</ul>
+			</div>
+		</div>
+		<div class="col-12">
+			<hr class="light">
+			<p class ="text-center"><small>&copy; Camilo Reyes. 2019. Medellín-Colombia</small></p>
+	</div>
+</footer>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+</html>
